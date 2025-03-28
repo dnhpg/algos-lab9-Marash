@@ -100,13 +100,13 @@ _также есть еще `tk.Entry`, который создает текст
 > **Задание 1**
 >
 > Поместите текстовое поле на экран
-> import tkinter as tk
-> root = tk.Tk()
-> root.geometry("800x500")
-> root.title("задание 1")
-> textbox = tk.Text(root, height=3, font=("Arial", 16))
-> textbox.pack(padx=20, pady=20)
-> root.mainloop()
+import tkinter as tk
+root = tk.Tk()
+root.geometry("800x500")
+root.title("задание 1")
+textbox = tk.Text(root, height=3, font=("Arial", 16))
+textbox.pack(padx=20, pady=20)
+root.mainloop() (помогтеееееееепеее😭😭😭😭😭😰😰😰😰😰😰😰😨😨😨😩😩😩😩😩🤯🤯🤯😬😬😬)
 #### Использование grid системы
 
 1. Создание рамки, чтобы внутри неё организовывать интерфейс по `grid`, а не `pack`
